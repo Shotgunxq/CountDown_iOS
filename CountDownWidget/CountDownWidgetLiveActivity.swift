@@ -61,20 +61,20 @@ extension CountDownWidgetAttributes {
         CountDownWidgetAttributes(name: "World")
     }
 }
+//
+//extension CountDownWidgetAttributes.ContentState {
+//    fileprivate static var smiley: CountDownWidgetAttributes.ContentState {
+//        CountDownWidgetAttributes.ContentState(emoji: "😀")
+//     }
+//     
+//     fileprivate static var starEyes: CountDownWidgetAttributes.ContentState {
+//         CountDownWidgetAttributes.ContentState(emoji: "🤩")
+//     }
+//}
 
-extension CountDownWidgetAttributes.ContentState {
-    fileprivate static var smiley: CountDownWidgetAttributes.ContentState {
-        CountDownWidgetAttributes.ContentState(emoji: "😀")
-     }
-     
-     fileprivate static var starEyes: CountDownWidgetAttributes.ContentState {
-         CountDownWidgetAttributes.ContentState(emoji: "🤩")
-     }
-}
-
-#Preview("Notification", as: .content, using: CountDownWidgetAttributes.preview) {
-   CountDownWidgetLiveActivity()
-} contentStates: {
-    CountDownWidgetAttributes.ContentState.smiley
-    CountDownWidgetAttributes.ContentState.starEyes
-}
+//#Preview("Notification", as: .content, using: CountDownWidgetAttributes.preview) {
+//   CountDownWidgetLiveActivity()
+//} contentStates: {
+//    CountDownWidgetAttributes.ContentState.smiley
+//    CountDownWidgetAttributes.ContentState.starEyes
+//}
